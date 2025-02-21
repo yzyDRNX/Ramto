@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ramto", "Ramto\Ramto.csproj", "{EC20B996-37E9-4209-B644-27421E6FADEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E0C9EBD7-3DA9-4AB4-AF00-CE1240AA739F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Core.MVVM", "Core.MVVM\Core.MVVM.shproj", "{41D51B6D-73AC-483A-A83D-8CE73BBC49A2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Ramto.Infraestructura", "Ramto.Infraestructura\Ramto.Infraestructura.shproj", "{63BCFB57-4A5C-4A2B-B54A-56228C656C92}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Ramto.Lib", "Ramto.Lib\Ramto.Lib.shproj", "{A0BCD3AA-FC01-42DA-BA8B-BF4FC874E9FC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Ramto.Modelos", "Ramto.Modelos\Ramto.Modelos.shproj", "{FC34A73F-F9AA-4558-AFC3-45746358E003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ramto.API", "Ramto.API\Ramto.API.csproj", "{2A5F133D-51CC-44BC-80E8-4388616CC196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC20B996-37E9-4209-B644-27421E6FADEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC20B996-37E9-4209-B644-27421E6FADEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC20B996-37E9-4209-B644-27421E6FADEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC20B996-37E9-4209-B644-27421E6FADEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5F133D-51CC-44BC-80E8-4388616CC196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5F133D-51CC-44BC-80E8-4388616CC196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5F133D-51CC-44BC-80E8-4388616CC196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5F133D-51CC-44BC-80E8-4388616CC196}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41D51B6D-73AC-483A-A83D-8CE73BBC49A2} = {E0C9EBD7-3DA9-4AB4-AF00-CE1240AA739F}
+		{63BCFB57-4A5C-4A2B-B54A-56228C656C92} = {E0C9EBD7-3DA9-4AB4-AF00-CE1240AA739F}
+		{A0BCD3AA-FC01-42DA-BA8B-BF4FC874E9FC} = {E0C9EBD7-3DA9-4AB4-AF00-CE1240AA739F}
+		{FC34A73F-F9AA-4558-AFC3-45746358E003} = {E0C9EBD7-3DA9-4AB4-AF00-CE1240AA739F}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Core.MVVM\Core.MVVM.projitems*{41d51b6d-73ac-483a-a83d-8ce73bbc49a2}*SharedItemsImports = 13
+		Ramto.Infraestructura\Ramto.Infraestructura.projitems*{63bcfb57-4a5c-4a2b-b54a-56228c656c92}*SharedItemsImports = 13
+		Ramto.Lib\Ramto.Lib.projitems*{a0bcd3aa-fc01-42da-ba8b-bf4fc874e9fc}*SharedItemsImports = 13
+		Ramto.Modelos\Ramto.Modelos.projitems*{fc34a73f-f9aa-4558-afc3-45746358e003}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
