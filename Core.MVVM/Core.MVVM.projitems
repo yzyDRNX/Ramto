@@ -9,5 +9,11 @@
     <Import_RootNamespace>Core.MVVM</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)DependencyService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ErrorInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObservableObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModelWithBL.cs" />
   </ItemGroup>
 </Project>

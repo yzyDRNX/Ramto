@@ -9,5 +9,8 @@
     <Import_RootNamespace>Ramto.Infraestructura</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Data\RamtoDataContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\PersonaService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\SeguridadService.cs" />
   </ItemGroup>
 </Project>

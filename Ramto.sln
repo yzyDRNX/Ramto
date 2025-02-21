@@ -42,9 +42,16 @@ Global
 		{FC34A73F-F9AA-4558-AFC3-45746358E003} = {E0C9EBD7-3DA9-4AB4-AF00-CE1240AA739F}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Core.MVVM\Core.MVVM.projitems*{2a5f133d-51cc-44bc-80e8-4388616cc196}*SharedItemsImports = 5
+		Ramto.Infraestructura\Ramto.Infraestructura.projitems*{2a5f133d-51cc-44bc-80e8-4388616cc196}*SharedItemsImports = 5
+		Ramto.Lib\Ramto.Lib.projitems*{2a5f133d-51cc-44bc-80e8-4388616cc196}*SharedItemsImports = 5
+		Ramto.Modelos\Ramto.Modelos.projitems*{2a5f133d-51cc-44bc-80e8-4388616cc196}*SharedItemsImports = 5
 		Core.MVVM\Core.MVVM.projitems*{41d51b6d-73ac-483a-a83d-8ce73bbc49a2}*SharedItemsImports = 13
 		Ramto.Infraestructura\Ramto.Infraestructura.projitems*{63bcfb57-4a5c-4a2b-b54a-56228c656c92}*SharedItemsImports = 13
 		Ramto.Lib\Ramto.Lib.projitems*{a0bcd3aa-fc01-42da-ba8b-bf4fc874e9fc}*SharedItemsImports = 13
+		Core.MVVM\Core.MVVM.projitems*{ec20b996-37e9-4209-b644-27421e6fadea}*SharedItemsImports = 5
+		Ramto.Lib\Ramto.Lib.projitems*{ec20b996-37e9-4209-b644-27421e6fadea}*SharedItemsImports = 5
+		Ramto.Modelos\Ramto.Modelos.projitems*{ec20b996-37e9-4209-b644-27421e6fadea}*SharedItemsImports = 5
 		Ramto.Modelos\Ramto.Modelos.projitems*{fc34a73f-f9aa-4558-afc3-45746358e003}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

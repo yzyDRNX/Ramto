@@ -9,5 +9,16 @@
     <Import_RootNamespace>Ramto.Modelos</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Custom\ApiValues.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Custom\PersonaRequestDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Request\PersonaRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Request\ReporteCaptura.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Request\UsuarioRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Response\ObtenerUsuarioResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Response\Response.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Response\UsuarioResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Response\Directory.Build.props" />
   </ItemGroup>
 </Project>

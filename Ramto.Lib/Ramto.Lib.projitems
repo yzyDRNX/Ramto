@@ -9,5 +9,29 @@
     <Import_RootNamespace>Ramto.Lib</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ApiClient\PersonaApiClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApiClient\SeguridadApiClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApiClient\WebApiClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BL\LoginBL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BL\PersonaBL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enumeraciones\LocalStorageKeys.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enumeraciones\ModalKeys.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Configuraciones.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\PagesKeys.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IPersona.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ISeguridad.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Locator\Locator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OS\Interfaces\IAutenticacionService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OS\Interfaces\ILocalStorage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OS\Interfaces\IModalesService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OS\Interfaces\INavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OS\SettingsValuesClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\DashBoardViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\FormularioViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GraficosViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\LoginViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)ViewModels\Directory.Build.props" />
   </ItemGroup>
 </Project>
