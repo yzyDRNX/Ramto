@@ -45,14 +45,14 @@
                 <form action="" class="login__form">
                     <div class="login__content grid">
                         <div class="login__box">
-                            <input type="email" id="email" required placeholder=" " class="login__input">
-                            <label for="email" class="login__label">Usuario</label>
+                            <input type="text" id="email" required placeholder=" " class="login__input" @bind="viewModel.UsuarioRequest.Username">
+                            <label for="text" class="login__label">Usuario</label>
 
                             <i class="ri-mail-fill login__icon"></i>
                         </div>
 
                         <div class="login__box">
-                            <input type="password" id="password" required placeholder=" " class="login__input">
+                            <input type="password" id="password" required placeholder=" " class="login__input" @bind="viewModel.UsuarioRequest.Password">
                             <label for="password" class="login__label">Contraseña</label>
 
                             <i class="ri-eye-off-fill login__icon login__password" id="loginPassword"></i>
@@ -61,7 +61,7 @@
 
                     <a href="#" class="login__forgot">Olvido su contraseña?</a>
 
-                    <button type="submit" class="login__button">Login</button>
+                    <button type="submit" class="login__button" @onclick="(async()=> { await viewModel.IniciarSesionCommand.ExecuteAsync(); })">Login"</button>
                 </form>
             </div>
         </div>

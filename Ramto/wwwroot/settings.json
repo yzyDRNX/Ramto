@@ -1,0 +1,5 @@
+{
+  "UrlWebApi": "https://localhost:7255",
+  "MensajeErrorApi": "Error al conectar con el servidor. Intente en otro momento"
+
+}
