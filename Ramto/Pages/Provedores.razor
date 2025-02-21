@@ -1,4 +1,4 @@
-﻿@page "/articulos"
+﻿@page "/proveedores"
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
-    <link rel="stylesheet" href="css/articulos.css">
-    <title>Artículos | Ramto</title>
+    <link rel="stylesheet" href="css/proveedores.css">
+    <title>Proveedores | Ramto</title>
 </head>
 <body>
     <div class="container">
@@ -25,11 +25,11 @@
                     <span class="material-icons-sharp">home</span>
                     <h3>Inicio</h3>
                 </a>
-                <a href="/articulos" class="active">
+                <a href="/articulos">
                     <span class="material-icons-sharp">inventory</span>
                     <h3>Artículos</h3>
                 </a>
-                <a href="/proveedores">
+                <a href="/proveedores" class="active">
                     <span class="material-icons-sharp">person_outline</span>
                     <h3>Proveedores</h3>
                 </a>
@@ -62,53 +62,53 @@
 
         <!-- Main Content -->
         <main>
-            <h1>Artículos</h1>
+            <h1>Proveedores</h1>
             <button class="add-button">
                 <span class="material-icons-sharp">add</span>
-                Agregar Artículo
+                Agregar Proveedor
             </button>
 
             <div class="recent-orders">
                 <table>
                     <thead>
                         <tr>
-                            <th>Código</th>
+                            <th>ID</th>
                             <th>Nombre</th>
-                            <th>Color</th>
-                            <th>Stock</th>
-                            <th>Precio/Metro</th>
+                            <th>Contacto</th>
+                            <th>Teléfono</th>
+                            <th>Email</th>
                             <th>Acciones</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>TL001</td>
-                            <td>Tela de Seda Natural</td>
-                            <td>Marfil</td>
-                            <td>150 metros</td>
-                            <td>$899.99</td>
+                            <td>PR001</td>
+                            <td>Textiles Ramírez</td>
+                            <td>Juan Pérez</td>
+                            <td>555-1234</td>
+                            <td>juan@example.com</td>
                             <td class="actions">
                                 <span class="material-icons-sharp action-btn edit-btn">edit</span>
                                 <span class="material-icons-sharp action-btn delete-btn">delete</span>
                             </td>
                         </tr>
                         <tr>
-                            <td>TL002</td>
-                            <td>Lino Premium</td>
-                            <td>Beige</td>
-                            <td>200 metros</td>
-                            <td>$599.99</td>
+                            <td>PR002</td>
+                            <td>Distribuidora López</td>
+                            <td>María López</td>
+                            <td>555-5678</td>
+                            <td>maria@example.com</td>
                             <td class="actions">
                                 <span class="material-icons-sharp action-btn edit-btn">edit</span>
                                 <span class="material-icons-sharp action-btn delete-btn">delete</span>
                             </td>
                         </tr>
                         <tr>
-                            <td>TL003</td>
-                            <td>Algodón Egipcio</td>
-                            <td>Blanco</td>
-                            <td>300 metros</td>
-                            <td>$799.99</td>
+                            <td>PR003</td>
+                            <td>Fábrica de Telas S.A.</td>
+                            <td>Carlos Gómez</td>
+                            <td>555-9876</td>
+                            <td>carlos@example.com</td>
                             <td class="actions">
                                 <span class="material-icons-sharp action-btn edit-btn">edit</span>
                                 <span class="material-icons-sharp action-btn delete-btn">delete</span>

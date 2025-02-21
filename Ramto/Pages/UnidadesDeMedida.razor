@@ -1,4 +1,4 @@
-﻿@page "/articulos"
+﻿@page "/UnidadesDeMedida"
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
-    <link rel="stylesheet" href="css/articulos.css">
-    <title>Artículos | Ramto</title>
+    <link rel="stylesheet" href="css/UnidadesDeMedida.css">
+    <title>Unidades de Medida | Ramto</title>
 </head>
 <body>
     <div class="container">
@@ -21,19 +21,19 @@
             </div>
 
             <div class="sidebar">
-                <a href="/Home">
+                <a href="/">
                     <span class="material-icons-sharp">home</span>
                     <h3>Inicio</h3>
                 </a>
-                <a href="/articulos" class="active">
+                <a href="articulos.html">
                     <span class="material-icons-sharp">inventory</span>
                     <h3>Artículos</h3>
                 </a>
-                <a href="/proveedores">
+                <a href="proveedores.html">
                     <span class="material-icons-sharp">person_outline</span>
                     <h3>Proveedores</h3>
                 </a>
-                <a href="/UnidadesDeMedida">
+                <a href="/unidades" class="active">
                     <span class="material-icons-sharp">straighten</span>
                     <h3>Unidades de Medida</h3>
                 </a>
@@ -62,53 +62,45 @@
 
         <!-- Main Content -->
         <main>
-            <h1>Artículos</h1>
+            <h1>Unidades de Medida</h1>
             <button class="add-button">
                 <span class="material-icons-sharp">add</span>
-                Agregar Artículo
+                Agregar Unidad
             </button>
 
             <div class="recent-orders">
                 <table>
                     <thead>
                         <tr>
-                            <th>Código</th>
+                            <th>ID</th>
                             <th>Nombre</th>
-                            <th>Color</th>
-                            <th>Stock</th>
-                            <th>Precio/Metro</th>
+                            <th>Abreviatura</th>
                             <th>Acciones</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>TL001</td>
-                            <td>Tela de Seda Natural</td>
-                            <td>Marfil</td>
-                            <td>150 metros</td>
-                            <td>$899.99</td>
+                            <td>UM001</td>
+                            <td>Kilogramo</td>
+                            <td>kg</td>
                             <td class="actions">
                                 <span class="material-icons-sharp action-btn edit-btn">edit</span>
                                 <span class="material-icons-sharp action-btn delete-btn">delete</span>
                             </td>
                         </tr>
                         <tr>
-                            <td>TL002</td>
-                            <td>Lino Premium</td>
-                            <td>Beige</td>
-                            <td>200 metros</td>
-                            <td>$599.99</td>
+                            <td>UM002</td>
+                            <td>Litro</td>
+                            <td>L</td>
                             <td class="actions">
                                 <span class="material-icons-sharp action-btn edit-btn">edit</span>
                                 <span class="material-icons-sharp action-btn delete-btn">delete</span>
                             </td>
                         </tr>
                         <tr>
-                            <td>TL003</td>
-                            <td>Algodón Egipcio</td>
-                            <td>Blanco</td>
-                            <td>300 metros</td>
-                            <td>$799.99</td>
+                            <td>UM003</td>
+                            <td>Metro</td>
+                            <td>m</td>
                             <td class="actions">
                                 <span class="material-icons-sharp action-btn edit-btn">edit</span>
                                 <span class="material-icons-sharp action-btn delete-btn">delete</span>
@@ -121,3 +113,4 @@
     </div>
 </body>
 </html>
+
